@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="src/css/materialize.min.css"
+        media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/solo.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="src/img/apex-favicon.png"/>
+    <title>Apex Legends</title>
+</head>
+
+<body>
+
+    <table id="field">
+        <tr>
+            <td id="0"></td>
+            <td id="1"></td>
+            <td id="2"></td>
+        </tr>
+        <tr>
+            <td id="3"></td>
+            <td id="4"></td>
+            <td id="5"></td>
+        </tr>
+        <tr>
+            <td id="6"></td>
+            <td id="7"></td>
+            <td id="8"></td>
+        </tr>
+    </table>
+    <div class="overlay">
+        <div class="window">
+            <div class="form-slider">
+                <div class="left-50">
+                    <div class="mode-title">Multiplayer</div>
+                    <!--  -->
+                    
+                    <div class="choice">
+                        
+                        <div class="fighter">Choose your fighter</div>
+                        <div class="mode-s">Singleplayer &rarr;</div>
+                        <div class="first">
+                            <div class="player">Player 1</div>
+                            <div id="pat" class="border icon-1 hover1" name="all">
+                                <img src="src/img/pat.png" data="pat">
+                            </div>
+                            <div id="reyf" class="border icon-1 hover1" name="all">
+                                <img src="src/img/reyf.png" data="reyf" name="all">
+                            </div>
+                            <div id="blood" class="border icon-1 hover1" name="all">
+                                <img src="src/img/blood.png" data="blood">
+                            </div>
+                            <div id="banga" class="border icon-1 hover1" name="all">
+                                <img src="src/img/banga.png" data="banga">
+                            </div>
+                        </div>
+                        
+                        <button class="waves-effect waves-light btn-large btn" disabled>Let's fight</button>
+                        <div class="second">
+                            <div class="player">Player 2</div>
+                            <div id="vats" class="border icon-2 hover2" name="all">
+                                <img src="src/img/vats.png" data="vats">
+                            </div>
+                            <div id="gibi" class="border icon-2 hover2" name="all">
+                                <img src="src/img/gibi.png" data="gibi">
+                            </div>
+                            <div id="loba" class="border icon-2 hover2" name="all">
+                                <img src="src/img/loba.png" data="loba">
+                            </div>
+                            <div id="kaustic" class="border icon-2 hover2" name="all">
+                                <img src="src/img/kaustic.png" data="kaustic">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-50">
+                    <div class="mode-title">Singleplayer</div>
+                    <div class="player">Choose your fighter</div>
+                    <div class="solo">
+                        <div class="mode-m">&larr; Multiplayer</div>
+                        
+                        <div class="oneOffour">
+                            <div id="pat" class="borderito image-1" name="0" >
+                                <img src="src/img/pat.png" data="pat">
+                            </div>
+                            <div id="reyf" class="borderito image-1" name="1">
+                                <img src="src/img/reyf.png" data="reyf">
+                            </div>
+                            <div id="blood" class="borderito image-1" name="2">
+                                <img src="src/img/blood.png" data="blood">
+                            </div>
+                            <div id="banga" class="borderito image-1" name="3">
+                                <img src="src/img/banga.png" data="banga">
+                            </div>
+                        </div>
+                        <button class="waves-effect waves-light btn-large btn btn2" disabled>Let's fight</button>
+                        <div class="twoOffour">
+                            <div id="vats" class="borderito image-1" name="4">
+                                <img src="src/img/vats.png" data="vats">
+                            </div>
+                            <div id="gibi" class="borderito image-1" name="5">
+                                <img src="src/img/gibi.png" data="gibi">
+                            </div>
+                            <div id="loba" class="borderito image-1" name="6">
+                                <img src="src/img/loba.png" data="loba">
+                            </div>
+                            <div id="kaustic" class="borderito image-1" name="7">
+                                <img src="src/img/kaustic.png" data="kaustic">
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="result_overlay hide">
+        <div class="result_modal">
+            <div class="result_win hide overall"><img src="src/img/champion.png" alt="champion"></div>
+            <div class="result_draw hide overall">DRAW</div>
+            <div class="result_img overall"></div>
+            <div class="result_question overall">Would you like to play again?</div>
+            <button class="waves-effect waves-light btn-large btn damn_no overall">Damn, too izi</button>
+            <button class="waves-effect waves-light btn-large btn yes_please overall">Yes, please</button>
+        </div>
+    </div>
+</body>
+<script src="src/js/materialize.min.js"></script>
+<script src="src/js/solo.js"></script>
+<script src="src/js/script.js"></script>
+
+</html>
